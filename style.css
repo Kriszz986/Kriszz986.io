@@ -45,3 +45,9 @@ header {
     background-color: #ddd;
     color: black;
   }
+
+  @media only screen and (min-width: 992px){
+    header {
+      background-color: green;
+    }
+  }
