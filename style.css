@@ -3,6 +3,7 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 .grid-container {
@@ -49,5 +50,21 @@ header {
   @media only screen and (min-width: 992px){
     header {
       background-color: green;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      background-color: rgb(252, 235, 0);
+      padding: 35px;
+      height: 80%;
+    }
+  
+    .grid-item {
+      background-color: rgba(215, 243, 88, 0.8);
+      border: 3px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+      
     }
   }
