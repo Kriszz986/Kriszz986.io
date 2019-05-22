@@ -32,37 +32,23 @@ header {
     background-color:black;
     padding: 10px;
     }
-  
-  nav a {
-    float: left;
-    display: block;
-    color: rgb(229, 243, 32);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
 
   a:link, a:visited {
     background-color: #f44336;
-    color: white;
+    color: black;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-block; 
   }
-  
+
   a:hover, a:active {
     background-color: red;
   }
 
   @media only screen and (min-width: 992px){
     header {
-      background-color: green;
+      background-color:rgb(252, 235, 0);
     }
     .grid-container {
       display: grid;
@@ -78,6 +64,18 @@ header {
       padding: 20px;
       font-size: 30px;
       text-align: center;
-      
-    }
+      }
+
+      a:link, a:visited {
+        background-color: rgba(215, 243, 88, 0.8);
+        color: whitesmoke;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display:inline-block; 
+      }
+
+      a:hover, a:active {
+        background-color: black;
+      }
   }
