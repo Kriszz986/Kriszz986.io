@@ -68,7 +68,7 @@ header {
 
       a:link, a:visited {
         background-color: rgba(215, 243, 88, 0.8);
-        color: whitesmoke;
+        color: black;
         padding: 14px 25px;
         text-align: center;
         text-decoration: none;
@@ -77,5 +77,6 @@ header {
 
       a:hover, a:active {
         background-color: black;
+        color: whitesmoke;
       }
   }
