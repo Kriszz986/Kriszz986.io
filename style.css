@@ -83,6 +83,8 @@ header {
       width: 110px;
     }
     header{
-      padding: 31px;
+      padding: 50px;
+      font-size: 35px;
+      font-weight: 900;
     }
   }
