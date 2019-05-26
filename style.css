@@ -57,6 +57,9 @@ header {
     text-align: center;
     width: auto;
   }
+  img{
+    width: 0px;
+  }
 
 
 /* Del för Dator och skärm storlek över 800 px */
@@ -85,7 +88,7 @@ header {
       padding: 14px 25px;
     }
 
-    .grid-item img{
+    img{
       width: 110px;
     }
     header{
