@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    width: 100%;
 }
 
 .grid-container {
@@ -11,13 +12,15 @@ body{
     grid-template-columns: auto auto;
     background-color: rgb(252, 235, 0);
     padding: 10px;
+    margin: 0;
+    width: auto;
   }
 
   .grid-item {
     background-color: rgba(215, 243, 88, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
   }
 
@@ -25,37 +28,44 @@ header {
     background-color: rgb(252, 235, 0);
     padding: 20px;
     text-align: center;
+    width: auto;
     }
   
   nav {
     overflow: hidden;
     background-color:black;
     padding: 10px;
+    width: auto;
     }
 
   a:link, a:visited {
-    background-color: #f44336;
+    background-color:rgba(215, 243, 88, 0.8);
     color: black;
-    padding: 14px 25px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block; 
+    display: inline-block;
   }
 
   a:hover, a:active {
-    background-color: red;
+    background-color: black;
+    color:whitesmoke;
   }
 
-  @media only screen and (min-width: 992px){
+
+/* Del för Dator och skärm storlek över 800 px */
+  @media only screen and (min-width: 800px){
     header {
-      background-color:rgb(252, 235, 0);
+      background-color: rgb(252, 235, 0);
     }
+
+    /* Del för grid och länkar. */
     .grid-container {
       display: grid;
       grid-template-columns: auto auto;
       background-color: rgb(252, 235, 0);
       padding: 35px;
-      height: 80%;
+      height: auto;
     }
   
     .grid-item {
@@ -64,19 +74,15 @@ header {
       padding: 20px;
       font-size: 30px;
       text-align: center;
-      }
+    }
+    a:link, a:visited{
+      padding: 14px 25px;
+    }
 
-      a:link, a:visited {
-        background-color: rgba(215, 243, 88, 0.8);
-        color: black;
-        padding: 14px 25px;
-        text-align: center;
-        text-decoration: none;
-        display:inline-block; 
-      }
-
-      a:hover, a:active {
-        background-color: black;
-        color: whitesmoke;
-      }
+    .grid-item img{
+      width: 110px;
+    }
+    header{
+      padding: 31px;
+    }
   }
