@@ -6,11 +6,13 @@
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <script src="main.js"></script>
 </head>
 <body>
     <header>K-Portfolio</header>
-    <nav>hej hej hej</nav>
+    <nav>
+        <button class="button" onclick="myFunction()">Info om sidan!!!</button>
+        <p id="info"></p>
+    </nav>
     <div class="grid-container">
             <div class="grid-item">
                 <a href="http://">
@@ -61,6 +63,12 @@
             </div>
     </div>
     <footer>L</footer>
+
+    <script>
+        function myFunction() {
+        document.getElementById("info").innerHTML = "Hej! Jag heter Krisztian och här du kan se mina uppgifter.";
+    }
+    </script>
 
 </body>
 </html>
